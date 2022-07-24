@@ -1,0 +1,16 @@
+<launch>
+  <node name="slamoptolidar_node"   pkg="slamoptolidar_ros"  type="slamoptolidar_node" output="screen" respawn="false" >
+  <param name="channel_type"        type="string" value="tcp"/>  
+  <param name="tcp_ip"              type="string" value="192.168.0.1"/>  
+  <param name="tcp_port"            type="int"    value="2111"/>
+  <param name="frame_id"            type="string" value="base_link"/>
+  <param name="inverted"            type="bool"   value="true"/>
+  <param name="angle_compensate"    type="bool"   value="false"/>
+  <param name="anglg_min_d"         type="double"   value="-135.0"/>
+  <param name="angle_max_d"         type="double"   value="135.0"/>
+  <param name="range_min_m"         type="double"   value="0.1"/>
+  <param name="range_max_m"         type="double"   value="25.0"/>
+  </node>
+</launch>
+
+

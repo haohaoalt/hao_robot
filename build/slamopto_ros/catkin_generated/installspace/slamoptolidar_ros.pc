@@ -1,0 +1,8 @@
+prefix=/home/hao007/hao_robot/install
+
+Name: slamoptolidar_ros
+Description: Description of slamoptolidar_ros
+Version: 2020.7.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

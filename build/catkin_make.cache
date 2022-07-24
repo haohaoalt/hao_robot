@@ -1,0 +1,2 @@
+hao_rplidar_ros:slamopto_ros:turtle_tf2
+-DCATKIN_DEVEL_PREFIX=/home/hao007/hao_robot/devel -DCMAKE_INSTALL_PREFIX=/home/hao007/hao_robot/install -G Unix Makefiles
